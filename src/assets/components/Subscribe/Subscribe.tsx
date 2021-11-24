@@ -162,8 +162,13 @@ function Subscribe() {
           <SuccessState>
             <div className="sucess-container">
               <h1 className="msg-sucess"> Obrigado. </h1>
-              <a href="" className="msg-sucess-2">
-                Acesse nosso grupo do whatsApp clicando aqui{' '}
+              <a
+                href="https://chat.whatsapp.com/DOQmLG6tdYD4T3iMtmnz2g"
+                target="_blank"
+                rel="noreferrer"
+                className="msg-sucess-2"
+              >
+                Acesse nosso grupo do whatsApp clicando aqui
               </a>
             </div>
           </SuccessState>
