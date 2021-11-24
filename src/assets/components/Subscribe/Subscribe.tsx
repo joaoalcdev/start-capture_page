@@ -161,7 +161,7 @@ function Subscribe() {
         {state === 'Success' && (
           <SuccessState>
             <div className="sucess-container">
-              <h1 className="msg-sucess"> Obrigado. </h1>
+              <h1 className="msg-sucess"> Obrigado por inscrever-se. </h1>
               <a
                 href="https://chat.whatsapp.com/DOQmLG6tdYD4T3iMtmnz2g"
                 target="_blank"
