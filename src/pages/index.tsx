@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { Container, DividerSection } from '../styles/pages/Home'
+import { Container } from '../styles/pages/Home'
 
 // import Navbar from '../assets/components/Navbar/Navbar'
 // import { NavbarStyle } from '../styles/NavbarStyle'

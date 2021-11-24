@@ -16,6 +16,29 @@ export const HomeStyle = styled.div`
     user-select: none;
   }
 
+  .sucess-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .msg-sucess {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0;
+  }
+
+  .msg-sucess-2 {
+    color: #fee705;
+    font-size: 0.8rem;
+  }
+
   .text-yellow {
     color: #fee705;
   }

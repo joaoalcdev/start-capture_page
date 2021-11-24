@@ -2,6 +2,7 @@
 // /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
 import React from 'react'
+import Subscribe from '../Subscribe/Subscribe'
 
 function Modal({ setOpenModal }) {
   return (
@@ -26,7 +27,7 @@ function Modal({ setOpenModal }) {
             Preencha os campos abaixo para ser notificado sobre as lives.
           </p>
         </div>
-        <div className="form-section-popup">
+        {/* <div className="form-section-popup">
           <input
             className="input-form"
             type="text"
@@ -41,23 +42,10 @@ function Modal({ setOpenModal }) {
             placeholder="Digite seu e-mail"
             autoComplete="off"
           />
-        </div>
-        <div className="footer">
-          <div className="security-popup">
-            <img className="cadeado-img" src="security.svg" alt="CADEADO" />
-            <p className="text-white text-thin text-security">
-              Seus dados estão seguros conosco.
-            </p>
-          </div>
-          <button
-            onClick={() => {
-              setOpenModal(false)
-            }}
-            id="cancelBtn"
-          >
-            Enviar
-          </button>
-        </div>
+        </div> */}
+        {/* <div className="footer">
+        </div> */}
+        <Subscribe />
       </div>
     </div>
   )
