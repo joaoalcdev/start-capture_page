@@ -17,7 +17,7 @@ const HomeSection = () => {
 
   const startTimer = () => {
     const countDownDate = new Date(
-      'Fri Dez 10 2021 18:00:00 GMT-0200'
+      'Mon Nov 29 2021 18:00:00 GMT-0200'
     ).getTime()
 
     interval = setInterval(() => {
