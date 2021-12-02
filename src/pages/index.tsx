@@ -20,6 +20,10 @@ const Home: React.FC = () => {
           rel="stylesheet"
           type="text/css"
         ></link>
+        <meta
+          name="facebook-domain-verification"
+          content="0faz6lpq442pa6b51wpb4tbs5v165x"
+        />
       </Head>
 
       {/* <NavbarStyle>
