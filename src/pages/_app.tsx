@@ -42,6 +42,14 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
           `
         }}
       ></script>
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style="display:none"
+          src="https://www.facebook.com/tr?id=4332319413545079&ev=PageView&noscript=1"
+        />
+      </noscript>
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
         <GlobalStyle />

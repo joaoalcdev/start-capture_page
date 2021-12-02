@@ -7,7 +7,7 @@ import Document, {
   Main,
   NextScript
 } from 'next/document'
-import FB_PIXEL_ID from '../assets/components/lib/fpixel'
+import { FB_PIXEL_ID } from '../assets/components/lib/fpixel'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {

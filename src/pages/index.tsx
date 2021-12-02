@@ -24,6 +24,9 @@ const Home: React.FC = () => {
           name="facebook-domain-verification"
           content="0faz6lpq442pa6b51wpb4tbs5v165x"
         />
+        <noscript><img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=4332319413545079&ev=PageView&noscript=1"
+        /></noscript>
       </Head>
 
       {/* <NavbarStyle>
