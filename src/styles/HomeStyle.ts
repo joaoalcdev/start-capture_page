@@ -55,6 +55,10 @@ export const HomeStyle = styled.div`
     font-weight: 700;
   }
 
+    .text-ultra-sm {
+      font-size: 90%;
+    }
+
   .text-sm {
     font-size: 1.1rem;
   }

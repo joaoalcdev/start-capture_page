@@ -7,6 +7,7 @@ import Document, {
   Main,
   NextScript
 } from 'next/document'
+// import { FB_PIXEL_ID } from '../assets/components/lib/fpixel'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -41,6 +42,14 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              style={{ display: 'none' }}
+              src={`https://www.facebook.com/tr?id=${4332319413545079}&ev=PageView&noscript=1`}
+            />
+          </noscript>
           {/*  Description Tags  */}
           <meta
             property="og:title"

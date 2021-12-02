@@ -156,7 +156,14 @@ function Subscribe() {
           </div>
         </div>
         {state === 'Error' && (
-          <ErrorState className="error-state">{errorMsg}</ErrorState>
+          <ErrorState className="error-state">
+            <span className="text-yellow">Você já está inscrito!</span>
+            <br />
+            <span className="msgError-2 text-ultra-sm">
+              Fique de olho no e-mail para receber nossas atualizaçõs{' '}
+            </span>
+            {/* {errorMsg} */}
+          </ErrorState>
         )}
         {state === 'Success' && (
           <SuccessState>

@@ -128,7 +128,6 @@ const HomeSection = () => {
             </div>
           </div>
           {/*  */}
-
           {/*  */}
         </main>
       </body>
