@@ -4,6 +4,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
+import * as fbq from '../lib/fpixel'
 
 const SubscribeContainer = styled.div`
   margin: 20px 0px;
@@ -117,6 +118,10 @@ function Subscribe() {
     }
   }
 
+  const handleClick = () => {
+    fbq.event('Purchase', { currency: 'USD', value: 10 })
+  }
+
   return (
     <div className="">
       <form
@@ -160,7 +165,7 @@ function Subscribe() {
             <span className="text-yellow">Você já está inscrito!</span>
             <br />
             <span className="msgError-2 text-ultra-sm">
-              Fique de olho no e-mail para receber nossas atualizaçõs{' '}
+              Fique de olho no e-mail para receber nossas atualizaçõs!
             </span>
             {/* {errorMsg} */}
           </ErrorState>
@@ -174,6 +179,7 @@ function Subscribe() {
                 target="_blank"
                 rel="noreferrer"
                 className="msg-sucess-2"
+                onClick={handleClick}
               >
                 Acesse nosso grupo do whatsApp clicando aqui
               </a>

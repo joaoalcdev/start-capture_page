@@ -7,7 +7,7 @@ import Document, {
   Main,
   NextScript
 } from 'next/document'
-// import { FB_PIXEL_ID } from '../assets/components/lib/fpixel'
+import FB_PIXEL_ID from '../assets/components/lib/fpixel'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -42,14 +42,23 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
-          <noscript>
-            <img
-              height="1"
-              width="1"
-              style={{ display: 'none' }}
-              src={`https://www.facebook.com/tr?id=${4332319413545079}&ev=PageView&noscript=1`}
-            />
-          </noscript>
+          <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod ?
+              n.callMethod.apply(n, arguments) : n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '4332319413545079');
+            fbq('track', 'PageView');
+          </script>
+          <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=4332319413545079&ev=PageView&noscript=1"
+          /></noscript>
+
+          <meta name="facebook-domain-verification" content="0faz6lpq442pa6b51wpb4tbs5v165x" />
           {/*  Description Tags  */}
           <meta
             property="og:title"
