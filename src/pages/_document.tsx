@@ -9,7 +9,6 @@ import Document, {
 } from 'next/document'
 
 import { ServerStyleSheet } from 'styled-components'
-import Script from 'next/script'
 
 export default class MyDocument extends Document {
   static async getInitialProps(
@@ -43,23 +42,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
-          <Script
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: `
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID});');
-          fbq('track', 'PageView');
-          `
-            }}
-          />
           <noscript>
             <img
               height="1"
@@ -299,6 +281,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
           ></link>
+          <title> Jornada Start | Érika Gondim</title>
         </Head>
         <body>
           <Main />
