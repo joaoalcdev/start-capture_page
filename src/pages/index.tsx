@@ -14,7 +14,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Curso de Inglês para Iniciantes | Érika Gondim</title>
+        <title> Jornada Start | Érika Gondim</title>
         <link
           href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
           rel="stylesheet"
