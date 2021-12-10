@@ -2,7 +2,7 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import React, { useState, useEffect } from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Clock from '../Clock/Clock'
 import Modal from '../Popup/Popup'
 
