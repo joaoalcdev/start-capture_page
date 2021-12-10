@@ -46,7 +46,8 @@ export default class MyDocument extends Document {
             <img
               height="1"
               width="1"
-              src="https://www.facebook.com/tr?id=4332319413545079&ev=PageView&noscript=1"
+              style={{ display: 'none' }}
+              src={`https://www.facebook.com/tr?id=${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
             />
           </noscript>
           <meta
@@ -99,50 +100,50 @@ export default class MyDocument extends Document {
           ></meta>
           {/*  Site URL  */}
           {/* Links */}
-          <link rel="canonical" href="https://erikagondim.vercel.app"></link>
+          <link rel="canonical" href="https://www.erikagondim.com.br"></link>
           <meta
             property="og:url"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             name="instagram:site"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             name="youtube:site"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             name="facebook:site"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             name="twitter:site"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             name="linkedin:site"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             property="instagram:url"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             property="youtube:url"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             property="facebook:url"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             property="twitter:url"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           <meta
             property="linkedin:url"
-            content="https://erikagondim.vercel.app"
+            content="https://www.erikagondim.com.br"
           ></meta>
           {/*  Theme Color Global */}
           <meta name="theme-color" content="#5600E1"></meta>
@@ -281,7 +282,6 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
           ></link>
-          <title> Jornada Start | Érika Gondim</title>
         </Head>
         <body>
           <Main />

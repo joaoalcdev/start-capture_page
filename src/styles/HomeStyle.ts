@@ -16,6 +16,14 @@ export const HomeStyle = styled.div`
     user-select: none;
   }
 
+  .no-select {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .sucess-container {
     width: 100%;
     display: flex;

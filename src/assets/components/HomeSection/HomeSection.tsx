@@ -2,8 +2,9 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import React, { useState, useEffect } from 'react'
-import Clock from '../../components/Clock/Clock'
-import Modal from '../../components/Popup/Popup'
+import Image from 'next/image'
+import Clock from '../Clock/Clock'
+import Modal from '../Popup/Popup'
 
 const HomeSection = () => {
   // Countdown timer init
@@ -52,9 +53,7 @@ const HomeSection = () => {
   // Countdown timer end
 
   // popup form init
-
   const [modalOpen, setModalOpen] = useState(false)
-
   // popup form end
 
   return (
@@ -109,8 +108,10 @@ const HomeSection = () => {
                     </div>
                   </div>
                   <div className="text-white">
-                    <h3 className="text-contador text-thin"> INICIA EM </h3>
-                    <div className="App">
+                    <h3 className="text-contador text-thin no-select">
+                      INICIA EM
+                    </h3>
+                    <div className="App no-select">
                       <Clock
                         timerDays={timerDays}
                         timerHours={timerHours}
@@ -123,12 +124,18 @@ const HomeSection = () => {
                 <div className="shape-rocket"></div>
                 <div className="right">
                   <img src="rocket.svg" alt="rocket" className="rocket" />
+                  {/* <Image
+                    alt="rocket"
+                    src="/rocket.svg"
+                    className="rocket"
+                    layout="responsive"
+                    height={700}
+                    width={700}
+                  /> */}
                 </div>
               </div>
             </div>
           </div>
-          {/*  */}
-          {/*  */}
         </main>
       </body>
     </div>
