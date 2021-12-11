@@ -507,7 +507,8 @@ export const HomeStyle = styled.div`
 
       .input-form {
         width: 100%;
-        color: #884ff1;
+        color: #fff;
+        border: 2px solid #4c0ab6;
         background-color: #4c0ab6;
         border-radius: 6px;
         padding-top: 1rem;
@@ -529,11 +530,10 @@ export const HomeStyle = styled.div`
         user-select: none;
       }
 
-      .input-form::focus {
-        color: #8847f1;
-        outline: 1px solid #fee705;
-        border: none;
-        background-color: #4c0ab6;
+      .input-form:focus {
+        color: #f0f0f0;
+        /* outline: 1px solid #fee705; */
+        border: 2px solid #8847f1;
       }
 
       .input-form:-webkit-autofill {
@@ -1015,7 +1015,8 @@ export const HomeStyle = styled.div`
 
       .input-form {
         width: 100%;
-        color: #884ff1;
+        color: #fff;
+        border: 2px solid #4c0ab6;
         background-color: #4c0ab6;
         border-radius: 6px;
         padding-top: 1.4rem;
@@ -1037,12 +1038,11 @@ export const HomeStyle = styled.div`
         user-select: none;
       }
 
-      .input-form::focus {
-        color: #8847f1;
-        font-size: 1.2rem;
-        outline: 1px solid #fee705;
-        border: none;
-        background-color: #4c0ab6;
+      .input-form:focus {
+        color: #f0f0f0;
+        /* outline: 1px solid #fee705; */
+        border: 2px solid #8847f1;
+      }lor: #4c0ab6;
       }
 
       .input-form:-webkit-autofill {
@@ -1527,7 +1527,8 @@ export const HomeStyle = styled.div`
 
       .input-form {
         width: 100%;
-        color: #884ff1;
+        color: #fff;
+        border: 2px solid #4c0ab6;
         background-color: #4c0ab6;
         border-radius: 6px;
         padding-top: 1.2rem;
@@ -1549,11 +1550,10 @@ export const HomeStyle = styled.div`
         user-select: none;
       }
 
-      .input-form::focus {
-        color: #8847f1;
-        outline: 1px solid #fee705;
-        border: none;
-        background-color: #4c0ab6;
+      .input-form:focus {
+        color: #f0f0f0;
+        /* outline: 1px solid #fee705; */
+        border: 2px solid #8847f1;
       }
 
       .input-form:-webkit-autofill {
@@ -2039,7 +2039,8 @@ export const HomeStyle = styled.div`
 
       .input-form {
         width: 100%;
-        color: #884ff1;
+        color: #fff;
+        border: 2px solid #4c0ab6;
         background-color: #4c0ab6;
         border-radius: 6px;
         padding-top: 1rem;
@@ -2061,11 +2062,10 @@ export const HomeStyle = styled.div`
         user-select: none;
       }
 
-      .input-form::focus {
-        color: #8847f1;
-        outline: 1px solid #fee705;
-        border: none;
-        background-color: #4c0ab6;
+      .input-form:focus {
+        color: #f0f0f0;
+        /* outline: 1px solid #fee705; */
+        border: 2px solid #8847f1;
       }
 
       .input-form:-webkit-autofill {
@@ -2552,7 +2552,8 @@ export const HomeStyle = styled.div`
 
       .input-form {
         width: 100%;
-        color: #884ff1;
+        color: #fff;
+        border: 2px solid #4c0ab6;
         background-color: #4c0ab6;
         border-radius: 6px;
         padding-top: 0.9rem;
@@ -2574,11 +2575,10 @@ export const HomeStyle = styled.div`
         user-select: none;
       }
 
-      .input-form::focus {
-        color: #8847f1;
-        outline: 1px solid #fee705;
-        border: none;
-        background-color: #4c0ab6;
+      .input-form:focus {
+        color: #f0f0f0;
+        /* outline: 1px solid #fee705; */
+        border: 2px solid #8847f1;
       }
 
       .input-form:-webkit-autofill {
@@ -3052,7 +3052,8 @@ export const HomeStyle = styled.div`
 
       .input-form {
         width: 100%;
-        color: #884ff1;
+        color: #fff;
+        border: 2px solid #4c0ab6;
         background-color: #4c0ab6;
         border-radius: 6px;
         padding-top: 1rem;
@@ -3074,11 +3075,10 @@ export const HomeStyle = styled.div`
         user-select: none;
       }
 
-      .input-form::focus {
-        color: #8847f1;
-        outline: 1px solid #fee705;
-        border: none;
-        background-color: #4c0ab6;
+      .input-form:focus {
+        color: #f0f0f0;
+        /* outline: 1px solid #fee705; */
+        border: 2px solid #8847f1;
       }
 
       .input-form:-webkit-autofill {
@@ -3533,7 +3533,8 @@ export const HomeStyle = styled.div`
 
     .input-form {
         width: 100%;
-        color: #884ff1;
+        color: #fff;
+        border: 2px solid #4c0ab6;
         background-color: #4c0ab6;
         border-radius: 6px;
         padding-top: 1rem;
@@ -3555,11 +3556,10 @@ export const HomeStyle = styled.div`
         user-select: none;
       }
 
-      .input-form::focus {
-        color: #8847f1;
-        outline: 1px solid #fee705;
-        border: none;
-        background-color: #4c0ab6;
+      .input-form:focus {
+        color: #f0f0f0;
+        /* outline: 1px solid #fee705; */
+        border: 2px solid #8847f1;
       }
 
       .input-form:-webkit-autofill {

@@ -133,6 +133,7 @@ function Subscribe() {
                 name="email"
                 type="email"
                 placeholder="Digite seu e-mail"
+                autoComplete="off"
                 value={email}
                 onChange={e => setEmail(e.target.value)}
               />
