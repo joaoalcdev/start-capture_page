@@ -18,7 +18,7 @@ const HomeSection = () => {
 
   const startTimer = () => {
     const countDownDate = new Date(
-      'Sat Dec 11 2021 21:00:00 GMT-0200'
+      'Sun Dec 12 2021 21:00:00 GMT-0200'
     ).getTime()
 
     interval = setInterval(() => {
@@ -109,7 +109,7 @@ const HomeSection = () => {
                   </div>
                   <div className="text-white">
                     <h3 className="text-contador text-thin no-select">
-                      <span className="">AULA 02 | </span>INICIA EM
+                      <span className="">AULA 03 | </span>INICIA EM
                     </h3>
                     <div className="App no-select">
                       <Clock
