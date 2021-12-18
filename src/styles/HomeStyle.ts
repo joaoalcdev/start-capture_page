@@ -2604,6 +2604,7 @@ export const HomeStyle = styled.div`
         z-index: 3;
         position: relative;
         background-color: #fee705;
+        border: 3px solid #fff;
         font: 700 1.05rem Poppins, sans-serif;
 
         padding: 1.2rem 1.75rem 1.2rem 1.75rem;
