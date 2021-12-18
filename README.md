@@ -1,68 +1,68 @@
 <p align="center">
-  <img alt="Letmeask" src=".github/logo.svg" width="160px">
+  <img alt="START - English Academy" src="./src/assets/images/logo-start.svg" width="160px">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" />
+<!--   <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" /> -->
   
-  <img src="https://img.shields.io/github/stars/rocketseat-education/nlw-06-reactjs?label=stars&message=MIT&color=8257E5&labelColor=000000" alt="Stars">
+<!--   <img src="https://img.shields.io/github/stars/rocketseat-education/nlw-06-reactjs?label=stars&message=MIT&color=8257E5&labelColor=000000" alt="Stars"> -->
 
-  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">   
+<!--   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">    -->
 </p>
 
 <h1 align="center">
-    <img alt="Letmeask" src=".github/cover.svg" />
+    <img alt="START - English Academy" src="./src/assets/images/cover(01).svg" />
+    <img alt="START - English Academy" src="./src/assets/images/cover(02).svg" />
 </h1>
 
 <br>
 
-## 🧪 Tecnologias
+## 🧪 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - [React](https://reactjs.org)
-- [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Styled-components](https://styled-components.com/docs/api)
+- [Mailchimp API](https://mailchimp.com/developer/marketing/api/)
 
-## 🚀 Como executar
+## 🚀 How to run:
 
-Clone o projeto e acesse a pasta do mesmo.
+Clone the project and access its folder.
 
 ```bash
 $ git clone https://github.com/rocketseat-education/nlw-06-reactjs
 $ cd nlw-06-reactjs
 ```
 
-Para iniciá-lo, siga os passos abaixo:
+To start it, follow the steps below:
+
 ```bash
 # Instalar as dependências
 $ yarn
 
-# Iniciar o projeto
-$ yarn start
+# Start the project
+$ yarn start or yarn dev
 ```
-O app estará disponível no seu browser pelo endereço http://localhost:3000.
+The app is available in your browser by address -> http://localhost:3000.
 
-Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
+## 💻 Project Desc
 
-## 💻 Projeto
+O [Start - English Academy](https://www.erikagondim.com.br/) is a project that teaches a revolutionary method for learning English.
 
-Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática. 
-
-Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada dos dias 20 a 27 de Junho de 2021.
-
+The project was developed by [João Alcântara](https://github.com/joaoalcdev) and prototyped by [Ygor Gondim](https://www.instagram.com/ygorgondim/).
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através do link abaixo:
+You can view the project layout through the link below:
 
-- [Layout Web](https://www.figma.com/community/file/1009824839797878169/Letmeask) 
+- [Layout Web](https://www.figma.com/file/9cM3HJKDH8bv6oPyYjk3Wn/Capture-Page---Design-Layout---START-%7C-English-Academy?node-id=0%3A1) 
 
-Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
+Remembering that you need to have a Figma account [Figma](http://figma.com/).
 
 ## 📝 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under MIT license. See the file [LICENSE](LICENSE.md) for more details.
 
 ---
 
