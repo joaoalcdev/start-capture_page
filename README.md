@@ -66,4 +66,4 @@ This project is under MIT license. See the file [LICENSE](LICENSE.md) for more d
 
 ---
 
-Feito com 💜 by Rocketseat 👋🏻 [Participe da nossa comunidade](https://discord.gg/gKUVrzrPrU)
+Feito com 💜 by João Alcântara 👋🏻
