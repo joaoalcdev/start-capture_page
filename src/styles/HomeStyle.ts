@@ -242,7 +242,7 @@ export const HomeStyle = styled.div`
       position: relative;
       background-color: none;
       border: 3px solid #fff;
-      font: 700 2.65rem Poppins, sans-serif;
+      font: 700 2.5rem Poppins, sans-serif;
 
       padding: 1.2rem 1.75rem 1.2rem 1.75rem;
       margin-top: 1.2rem;
@@ -290,8 +290,9 @@ export const HomeStyle = styled.div`
     }
 
     a.btn:hover {
-      border: 2px solid #ffff59;
-      color: #fff59;
+      background-color: none;
+      border: 3px solid #ffff59;
+      color: #ffff59;
       cursor: pointer;
     }
 
@@ -838,7 +839,7 @@ export const HomeStyle = styled.div`
       position: relative;
       background-color: none;
       border: 3px solid #fff;
-      font: 700 1.525rem Poppins, sans-serif;
+      font: 700 2.25rem Poppins, sans-serif;
 
       padding: 1.2rem 1.75rem 1.2rem 1.75rem;
       margin-top: 1.2rem;
@@ -892,8 +893,9 @@ export const HomeStyle = styled.div`
     }
 
     a.btn:hover {
-      border: 2px solid #ffff59;
-      color: #fff59;
+      background-color: none;
+      border: 3px solid #ffff59;
+      color: #ffff59;
       cursor: pointer;
     }
 
@@ -1426,7 +1428,7 @@ export const HomeStyle = styled.div`
       position: relative;
       background-color: none;
       border: 3px solid #fff;
-      font: 700 1.5rem Poppins, sans-serif;
+      font: 700 2rem Poppins, sans-serif;
 
       padding: 1.2rem 1.75rem 1.2rem 1.75rem;
       margin-top: 1.2rem;
@@ -1474,8 +1476,9 @@ export const HomeStyle = styled.div`
     }
 
     a.btn:hover {
-      border: 2px solid #ffff59;
-      color: #fff59;
+      background-color: none;
+      border: 3px solid #ffff59;
+      color: #ffff59;
       cursor: pointer;
     }
 
@@ -2015,7 +2018,7 @@ export const HomeStyle = styled.div`
       position: relative;
       background-color: none;
       border: 3px solid #fff;
-      font: 700 1.4rem Poppins, sans-serif;
+      font: 700 1.6rem Poppins, sans-serif;
 
       padding: 1.2rem 1.75rem 1.2rem 1.75rem;
       margin-top: 1.2rem;
@@ -2057,7 +2060,7 @@ export const HomeStyle = styled.div`
     }
 
     a.btn:hover {
-      transition: all 0.3s;
+      background-color: none;
       border: 3px solid #ffff59;
       color: #ffff59;
       cursor: pointer;
@@ -2600,12 +2603,12 @@ export const HomeStyle = styled.div`
       a.btn {
         display: inline-block;
         text-transform: capitalize;
-        color: #5600e1;
+        color: #ffffff;
         z-index: 3;
         position: relative;
-        background-color: #fee705;
+        background-color: none;
         border: 3px solid #fff;
-        font: 700 1.05rem Poppins, sans-serif;
+        font: 700 1rem Poppins, sans-serif;
 
         padding: 1.2rem 1.75rem 1.2rem 1.75rem;
         margin-top: 1.2rem;
@@ -2647,8 +2650,9 @@ export const HomeStyle = styled.div`
       }
 
       a.btn:hover {
-        transform: scale(1.05);
-        background-color: #ffff59;
+        background-color: none;
+        border: 3px solid #ffff59;
+        color: #ffff59;
         cursor: pointer;
       }
 
