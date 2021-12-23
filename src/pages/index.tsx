@@ -57,12 +57,12 @@ const Home: React.FC = () => {
 
       {/* <DividerSection /> */}
 
-      <Container>
-        <HomeStyle>
+      <HomeStyle>
+        <Container>
           <HomeSection />
-        </HomeStyle>
-        <Footer />
-      </Container>
+          <Footer />
+        </Container>
+      </HomeStyle>
     </>
   )
 }

@@ -14,10 +14,6 @@ export default createGlobalStyle`
     font-family: 'Poppins', sans-serif;
   }
 
-  body {
-    /* background: #5600e0; */
-  }
-
   /* Selection */
   h1::selection {
     color: #5600e1;
@@ -46,4 +42,6 @@ export default createGlobalStyle`
     background-color: #333333;
   }
   scroll-behavior: smooth;
+
+
 `
